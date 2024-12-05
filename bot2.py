@@ -28,8 +28,7 @@ def library_info(call):
         if link:
             bot.send_message(call.message.chat.id,"Перейшовши за цим посиланням, ти можеш детальніше дізнатися про потрібну тобі бібліотеку:")
             bot.send_message(call.message.chat.id, link)
-    else:
-        bot.send_message(call.message.chat.id, "Вибач, я не маю інформації про цю бібліотеку.")
+
 
 
 bot.polling()
